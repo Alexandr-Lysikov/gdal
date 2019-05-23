@@ -1,0 +1,97 @@
+Driver: JP2ECW/ERDAS JPEG2000 (SDK 3.x)
+Files: file1.jp2
+Size is 10000, 10000
+Coordinate System is:
+BOUNDCRS[
+    SOURCECRS[
+        PROJCRS["NAD83 / Pennsylvania North",
+            BASEGEOGCRS["NAD83",
+                DATUM["North American Datum 1983",
+                    ELLIPSOID["GRS 1980",6378137,298.257222101,
+                        LENGTHUNIT["metre",1]]],
+                PRIMEM["Greenwich",0,
+                    ANGLEUNIT["degree",0.0174532925199433]]],
+            CONVERSION["unnamed",
+                METHOD["Lambert Conic Conformal (2SP)",
+                    ID["EPSG",9802]],
+                PARAMETER["Latitude of false origin",40.1666666666667,
+                    ANGLEUNIT["degree",0.0174532925199433],
+                    ID["EPSG",8821]],
+                PARAMETER["Longitude of false origin",-77.75,
+                    ANGLEUNIT["degree",0.0174532925199433],
+                    ID["EPSG",8822]],
+                PARAMETER["Latitude of 1st standard parallel",41.95,
+                    ANGLEUNIT["degree",0.0174532925199433],
+                    ID["EPSG",8823]],
+                PARAMETER["Latitude of 2nd standard parallel",40.8833333333333,
+                    ANGLEUNIT["degree",0.0174532925199433],
+                    ID["EPSG",8824]],
+                PARAMETER["Easting at false origin",1968500,
+                    LENGTHUNIT["US survey foot",0.304800609601219],
+                    ID["EPSG",8826]],
+                PARAMETER["Northing at false origin",0,
+                    LENGTHUNIT["US survey foot",0.304800609601219],
+                    ID["EPSG",8827]]],
+            CS[Cartesian,2],
+                AXIS["easting",east,
+                    ORDER[1],
+                    LENGTHUNIT["US survey foot",0.304800609601219,
+                        ID["9003","EPSG"]]],
+                AXIS["northing",north,
+                    ORDER[2],
+                    LENGTHUNIT["US survey foot",0.304800609601219,
+                        ID["9003","EPSG"]]]]],
+    TARGETCRS[
+        GEOGCRS["WGS 84",
+            DATUM["World Geodetic System 1984",
+                ELLIPSOID["WGS 84",6378137,298.257223563,
+                    LENGTHUNIT["metre",1]]],
+            PRIMEM["Greenwich",0,
+                ANGLEUNIT["degree",0.0174532925199433]],
+            CS[ellipsoidal,2],
+                AXIS["latitude",north,
+                    ORDER[1],
+                    ANGLEUNIT["degree",0.0174532925199433]],
+                AXIS["longitude",east,
+                    ORDER[2],
+                    ANGLEUNIT["degree",0.0174532925199433]],
+            ID["EPSG",4326]]],
+    ABRIDGEDTRANSFORMATION["Transformation from NAD83 to WGS84",
+        METHOD["Position Vector transformation (geog2D domain)",
+            ID["EPSG",9606]],
+        PARAMETER["X-axis translation",0,
+            ID["EPSG",8605]],
+        PARAMETER["Y-axis translation",0,
+            ID["EPSG",8606]],
+        PARAMETER["Z-axis translation",0,
+            ID["EPSG",8607]],
+        PARAMETER["X-axis rotation",0,
+            ID["EPSG",8608]],
+        PARAMETER["Y-axis rotation",0,
+            ID["EPSG",8609]],
+        PARAMETER["Z-axis rotation",0,
+            ID["EPSG",8610]],
+        PARAMETER["Scale difference",1,
+            ID["EPSG",8611]]]]
+Data axis to CRS axis mapping: 1,2
+Origin = (2480000.000000000000000,420000.000000000000000)
+Pixel Size = (1.000000000000000,-1.000000000000000)
+Metadata:
+  COLORSPACE=RGB
+  COMPRESSION_RATE_TARGET=17
+  VERSION=1
+Corner Coordinates:
+Upper Left  ( 2480000.000,  420000.000) ( 75d53'17.36"W, 41d18'15.55"N)
+Lower Left  ( 2480000.000,  410000.000) ( 75d53'20.17"W, 41d16'36.77"N)
+Upper Right ( 2490000.000,  420000.000) ( 75d51' 6.36"W, 41d18'13.41"N)
+Lower Right ( 2490000.000,  410000.000) ( 75d51' 9.23"W, 41d16'34.62"N)
+Center      ( 2485000.000,  415000.000) ( 75d52'13.28"W, 41d17'25.09"N)
+Band 1 Block=256x256 Type=Byte, ColorInterp=Red
+  Description = Red
+  Overviews: 5000x5000, 2500x2500, 1250x1250, 625x625, 312x312, 156x156
+Band 2 Block=256x256 Type=Byte, ColorInterp=Green
+  Description = Green
+  Overviews: 5000x5000, 2500x2500, 1250x1250, 625x625, 312x312, 156x156
+Band 3 Block=256x256 Type=Byte, ColorInterp=Blue
+  Description = Blue
+  Overviews: 5000x5000, 2500x2500, 1250x1250, 625x625, 312x312, 156x156
